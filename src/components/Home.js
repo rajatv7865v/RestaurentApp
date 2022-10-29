@@ -37,7 +37,7 @@ const Home = () => {
                   <Card.Text>
                     Price: {ele.price}
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+  
                 </Card.Body>
               </Card>
             );

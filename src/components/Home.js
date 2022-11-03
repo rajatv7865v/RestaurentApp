@@ -19,10 +19,10 @@ const Home = () => {
         Search Your Food
       </h1>
       <div className="btn-container d-flex justify-content-around mr-2">
-        <Button onClick={()=>filteritems("punjabi")} variant="primary">Punjabi</Button>
-        <Button onClick={()=>filteritems("vadapav")} variant="secondary">Bda Paav</Button>
+        <Button onClick={()=>filteritems("punjabi")} variant="primary">Punjabi Food</Button>
+        <Button onClick={()=>filteritems("vadapav")} variant="secondary">VadaPaav</Button>
         <Button onClick={()=>filteritems("Pizza")} variant="success">Pizza</Button>
-        <Button onClick={()=>filteritems("Chai")} variant="danger">Chayy</Button>
+        <Button onClick={()=>filteritems("Chai")} variant="danger">Chai</Button>
         <Button onClick={()=>filteritems("Frankie")} variant="primary">Frankie</Button>
         <Button onClick={()=>setMenu(Fooddata)} variant="danger">All</Button>
       </div>
